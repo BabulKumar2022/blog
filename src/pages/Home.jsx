@@ -1,11 +1,14 @@
+import HomePosts from "../components/HomePosts"
 
 
 const Home = () => {
   return (
-    <div className="">
-      <h1 className="text-3xl font-bold underline bg-[#1da1f2]">
-      HOME
-    </h1>
+    <div className="px-8 px-[200px]">
+      <HomePosts/>
+      <HomePosts/>
+      <HomePosts/>
+      <HomePosts/>
+      <HomePosts/>
     </div>
   )
 }
