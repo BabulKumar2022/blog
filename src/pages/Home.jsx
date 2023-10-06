@@ -1,15 +1,23 @@
+import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 import HomePosts from "../components/HomePosts"
+
 
 
 const Home = () => {
   return (
-    <div className="px-8 px-[200px]">
+    <>
+       <Navbar/>
+     <div className="px-8 px-[200px]">
       <HomePosts/>
       <HomePosts/>
       <HomePosts/>
       <HomePosts/>
       <HomePosts/>
-    </div>
+      </div>
+      <Footer/>
+    </>
+   
   )
 }
 
