@@ -58,7 +58,7 @@ const PostDetail = () => {
                         <p className="px-4 mt-2">Nice info</p>
                     </div>
                    
-
+ 
                 </div>
             </div>
         <Footer/>
